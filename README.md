@@ -9,6 +9,9 @@ is an interactive data exploration tool that allows users to query their data us
 - **Agent-Based Architecture:** Modular agents handle data ingestion, cleaning, visualization, and analysis.
 - **Interactive Visualizations:** Generate charts and reports dynamically based on user queries.
 
+## Schema[WIP]
+[![Schema](data/images/schema.png)](data/images/schema.png)
+
 ## Installation
 
 1. **Clone the repository:**
