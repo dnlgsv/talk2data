@@ -10,7 +10,11 @@ is an interactive data exploration tool that allows users to query their data us
 - **Interactive Visualizations:** Generate charts and reports dynamically based on user queries.
 
 ## Schema[WIP]
-[![Schema](data/images/schema.png)](data/images/schema.png)
+<p align="center">
+    <a href="data/images/schema.png">
+        <img src="data/images/schema.png" alt="Schema">
+    </a>
+</p>
 
 ## Installation
 
