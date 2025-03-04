@@ -1,0 +1,16 @@
+prompts:
+  router_prompt:
+    description: |
+      A baseline, straightforward prompt asking the model to determine the sentiment.
+    model_settings:
+      temperature: 0.0
+      max_tokens: 10
+    template: |
+      You are a routing assistant.
+      Given the user query, classify it into exactly one of the following categories:
+      - sql-query
+      - visualization
+      - analysis
+      - irrelevant
+
+      Simply return the single category (no extra commentary).
