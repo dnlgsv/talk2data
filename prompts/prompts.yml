@@ -1,7 +1,7 @@
 prompts:
   router_prompt:
     description: |
-      A baseline, straightforward prompt asking the model to determine the sentiment.
+      A baseline, straightforward prompt asking the model to determine the intent.
     model_settings:
       temperature: 0.0
       max_tokens: 10
@@ -14,3 +14,14 @@ prompts:
       - irrelevant
 
       Simply return the single category (no extra commentary).
+  
+  visualization_prompt:
+    description: |
+      A prompt asking the model to generate a visualization based on a user query.
+    model_settings:
+      temperature: 0.0
+      max_tokens: 500
+    template: |
+      You are a data visualization assistant.
+      Given the user query, generate Python code for a visualization that best represents the data.
+      The visualization should be simple and easy to understand.
